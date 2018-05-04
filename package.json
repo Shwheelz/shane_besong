@@ -28,12 +28,13 @@
     "@angular/router": "^6.0.0",
     "core-js": "^2.5.4",
     "express": "^4.16.3",
+    "path": "^0.12.7",
     "rxjs": "^6.0.0",
+    "typescript": "~2.7.2",
     "zone.js": "^0.8.26"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.6.0",
-    "typescript": "~2.7.2",
     "@angular/cli": "~6.0.0",
     "@angular/language-service": "^6.0.0",
     "@types/jasmine": "~2.8.6",
