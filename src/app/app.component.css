@@ -1,5 +1,28 @@
 h1 {
-  color: #363;
+  color: #49547f;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 250%;
+}
+
+.welcome-banner {
+  text-align: center;
+}
+
+.photo-main {
+  border-radius: 50%;
+  object-fit: cover;
+  height:200px;
+  width:200px;
+}
+
+.media-icon-wrapper {
+  width: 100%;
+  text-align: center;
+  padding-top: 25px;
+}
+
+.media-icon {
+  height: 200px;
+  width: 200px;
+  padding-left: 20px;
 }
