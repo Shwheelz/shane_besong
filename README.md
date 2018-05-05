@@ -1,6 +1,6 @@
-# Shanebesong
+# Shane Besong
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.0.
+My personal website, generated using [Angular CLI](https://github.com/angular/angular-cli) version 6.0.0.
 
 ## Development server
 
