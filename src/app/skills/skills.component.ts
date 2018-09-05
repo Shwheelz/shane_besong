@@ -13,9 +13,9 @@ export class SkillsComponent implements OnInit {
   ngOnInit() {
   }
 
-  private isHidden: boolean = true;
-  private titleLabel: string = "Technical Skills";
-  private skills: Array<Skill> = [
+  public isHidden: boolean = true;
+  public titleLabel: string = "Technical Skills";
+  public skills: Array<Skill> = [
     new Skill("Javascript", ["Vanilla.js", "AngularJS", "Angular", "Node"]),
     new Skill("HTML", ["HTML5", "Accessibility"]),
     new Skill("CSS", ["SCSS", "Bootstrap", "Responsive Design"]),
@@ -26,7 +26,7 @@ export class SkillsComponent implements OnInit {
     new Skill("UML", ["Class Diagrams", "Swimlanes", "Sequence Diagrams"])
   ];
 
-  private toggleHidden() {
+  public toggleHidden() {
     this.isHidden = !this.isHidden;
   }
 
