@@ -1,10 +1,8 @@
 h1 {
-  color: #49547f;
-  font-family: Arial, Helvetica, sans-serif;
   font-size: 250%;
 }
 
-.welcome-banner {
+.main-page {
   text-align: center;
 }
 
@@ -25,4 +23,9 @@ h1 {
   height: 200px;
   width: 200px;
   padding-left: 20px;
+  font-size: 32px;
+}
+
+.about-me {
+  font-size: 20px;
 }

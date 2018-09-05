@@ -1,0 +1,15 @@
+<h2 class="section" (click)="toggleHidden()">
+  <i class="fas fa-plus-circle skills-icon" *ngIf="isHidden"></i>
+  <i class="fas fa-minus-circle skills-icon" *ngIf="!isHidden"></i>
+  {{titleLabel}}
+</h2>
+<table class="skills-table" *ngIf="!isHidden">
+  <tr *ngFor="let skill of skills">
+    <td>{{ skill.name }}</td>
+    <td>
+      <span *ngFor="let value of skill.values, let i=index, let last=last">{{ value }}<!--
+        --><span *ngIf="!last">, </span>
+      </span>
+    </td>
+  </tr>
+</table>
