@@ -3,13 +3,24 @@
     <h1>
       {{ title }}
     </h1>
-    <img id="bio-img" class="photo-main" alt="Shane Besong" src="../assets/images/20170307_110758.jpg">
+    <img id="bio-img" class="photo-main" alt="bio picture" src="../assets/images/shane.jpg">
   </div>
   <div class="media-icon-wrapper">
-    <span class="media-icon"><a href="https://github.com/shwheelz"><i class="fab fa-github"></i></a></span>
-    <span class="media-icon"><a href="https://instagram.com/sfbesong"><i class="fab fa-instagram"></i></a></span>
-    <span class="media-icon"><a href="https://twitter.com/shwheelz"><i class="fab fa-twitter"></i></a></span>
-    <span class="media-icon"><a href="https://www.linkedin.com/in/sfbesong"><i class="fab fa-linkedin"></i></a></span>
+    <a href="https://github.com/shwheelz">
+      <img class="nav-icon" src="../assets/images/github.png" alt="github"/>
+    </a>
+    <a href="https://instagram.com/sfbesong">
+      <img class="nav-icon" src="../assets/images/instagram.png" alt="instagram"/>
+    </a>
+    <a href="https://twitter.com/shwheelz">
+      <img class="nav-icon" src="../assets/images/twitter.png" alt="twitter"/>
+    </a>
+    <a href="https://www.linkedin.com/in/sfbesong">
+      <img class="nav-icon" src="../assets/images/linkedin.png" alt="linked in"/>
+    </a>
+    <a href="https://www.twitch.tv/shwheelz">
+      <img class="nav-icon" src="../assets/images/twitch.png" alt="twitch" />
+    </a>
   </div>
   <div class="about-me">
     <p>
@@ -18,5 +29,10 @@
       Here's where I'll share all of my deepest, darkest secrets, so when someone asks for the dirt on me, you know what to say.
     </p>
   </div>
-  <app-skills></app-skills>
+  <div id="skills-section" class="section">
+      <app-skills></app-skills>
+  </div>
+  <div id="gaming-section" class="section">
+      <app-gaming></app-gaming>
+  </div>
 </div>

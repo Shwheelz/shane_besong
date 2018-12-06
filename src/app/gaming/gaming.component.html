@@ -1,0 +1,19 @@
+<button class="section" (click)="toggleHidden()">
+  <i class="fas fa-plus-circle plus-icon" *ngIf="isHidden"></i>
+  <i class="fas fa-minus-circle minus-icon" *ngIf="!isHidden"></i>
+  <span class="title-label">{{titleLabel}}</span>
+</button>
+
+<div *ngIf="!isHidden">
+  <button class="game-toggle" (click)="showGame('overwatch')">
+    <img class="game-icon" src="../../assets/images/overwatch.png" alt="overwatch" />
+  </button>
+  <button class="game-toggle" (click)="showGame('pokemon')">
+      <img class="game-icon" src="../../assets/images/chikorita.png" alt="pokemon" />
+  </button>
+  <div id="youtube-embed-container">
+      <iframe *ngIf="activeGame==='overwatch'" width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PL8e_eyrzOSVw-QAVXCJld8KUR9uwaGLkQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      <iframe *ngIf="activeGame==='pokemon'" width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PL8e_eyrzOSVxpHvU2EqXOlSwJWwqSXftp" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  </div>
+
+</div>
